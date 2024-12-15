@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.pokemon-list,
+.team-builder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pokemon-card,
+.team-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ffa500;
+}
